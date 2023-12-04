@@ -1,0 +1,11 @@
+{:source-paths ["src"]
+
+ :dependencies
+ [[reagent "1.2.0"]]
+
+ :builds
+ {:mobile
+  {:target :react-native
+   :init-fn app.core/init
+   :output-dir "out"
+   :js-options {:js-package-dirs ["node_modules"]}}}}
