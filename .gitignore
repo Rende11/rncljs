@@ -69,3 +69,4 @@ yarn-error.log
 .clj-kondo
 .lsp
 .shadow-cljs
+out
